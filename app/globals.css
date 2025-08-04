@@ -1,26 +1,42 @@
-@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --color-primary: #b71c1c;
+  --color-border: rgba(0, 0, 0, 0.12);
+  --color-primary-black: #222222;
+  --color-primary-white: #fdfdfd;
+  --color-primary-orange: #e14500;
+  --color-primary-green: #222222;
+  --color-primary-red: #b3261e;
+  --color-primary-highlight: #e145001a;
+  --color-secondary-dark-orange: #ad3500;
+  --color-secondary-bright-orange: #ff4c00;
+  --color-secondary-red: #9f130b;
+  --color-secondary-gray: #9a9a9a;
+  --color-secondary-highlight: #e1450080;
+  --color-ttip-gray: #414141;
+  --color-divider-gray: #dfdfdf;
+  --color-light-gray: #f3f3f3;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+/* Dark Theme */
+.dark {
+  --color-primary: #ff5722;
+  --color-border: rgba(255, 255, 255, 0.16);
+  --color-primary-black: #fdfdfd;
+  --color-primary-white: #1c1c1c;
+  --color-primary-orange: #ff784e;
+  --color-primary-green: #90ee90;
+  --color-primary-red: #ff6f61;
+  --color-primary-highlight: #ff784e1a;
+  --color-secondary-dark-orange: #ff5722;
+  --color-secondary-bright-orange: #ff8a65;
+  --color-secondary-red: #ff5252;
+  --color-secondary-gray: #bdbdbd;
+  --color-secondary-highlight: #ff784e80;
+  --color-ttip-gray: #e0e0e0;
+  --color-divider-gray: #444444;
+  --color-light-gray: #2b2b2b;
 }
