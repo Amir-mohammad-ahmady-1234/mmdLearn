@@ -25,7 +25,7 @@ export default function ToggleTheme() {
   }
 
   return (
-    <Button className="hidden md:block scale-[1.5]" onClick={handleChangeTheme}>
+    <Button className="max-w-10 scale-[1.5] cursor-pointer" onClick={handleChangeTheme}>
       {isDark === "dark" ? <MdDarkMode /> : <MdLightMode />}
     </Button>
   );

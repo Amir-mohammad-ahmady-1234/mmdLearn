@@ -1,12 +1,12 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useState } from "react";
 
-import DesktopNavigations from "./DesktopNavigations";
 import InputAndButtons from "./InputAndButtons";
 import Logo from "./Logo";
 import MobileNav from "./MobileNav";
 import CloseOpenSideBar from "./CloseOpenSideBar";
+import NavLinks from "./NavLinks";
 
 export default function MainHeader() {
   const [isOpen, setIsOpen] = useState(false);
@@ -18,7 +18,9 @@ export default function MainHeader() {
 
         <Logo />
 
-        <DesktopNavigations />
+        <nav className="hidden lg:flex md:space-x-20 font-bold text-shadow-text">
+          <NavLinks />
+        </nav>
 
         <InputAndButtons />
 

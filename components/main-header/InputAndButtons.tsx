@@ -14,7 +14,9 @@ const InputAndButtons = () => {
         className="hidden md:block w-72 bg-surface text-text p-4 rounded-4xl border-none shadow-2xl focus:shadow-xl !outline-none !ring-0"
       />
 
-      <ToggleTheme />
+      <div className="hidden md:block ">
+        <ToggleTheme />
+      </div>
 
       <Button
         variant="link"

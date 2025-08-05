@@ -41,14 +41,13 @@
 }
 
 /* MY OWN COLORS THEME */
-
 @theme {
   --color-bg: #f3f4f6;
   --color-surface: #5a89b8;
   --color-text: #334155;
   --color-muted: #79899e;
-  /* --color-border: #f7f8f9; */
-  /* --color-shadow: rgba(0, 0, 0, 0.05); */
+  --color-border: #d1cece;
+  --color-shadow: rgba(0, 0, 0, 0.05);
 
   --color-primary: #f3f4f6;
   --color-on-primary: #ffffff;
@@ -63,8 +62,8 @@
   --color-surface: #2a5a8a;
   --color-text: #ffffff;
   --color-muted: #d1dae7;
-  /* --color-border: #f7f8f9; */
-  /* --color-shadow: rgba(0, 0, 0, 0.2); */
+  --color-border: #d1cece;
+  --color-shadow: rgba(0, 0, 0, 0.2);
 
   --color-primary: #0e2338;
   --color-on-primary: #1b3046;

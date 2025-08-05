@@ -3,6 +3,7 @@
 import { CiBoxList } from "react-icons/ci";
 import { Button } from "../ui/button";
 import { Dispatch, SetStateAction } from "react";
+import { PiListLight } from "react-icons/pi";
 
 const CloseOpenSideBar = ({
   setOpen,
@@ -11,11 +12,10 @@ const CloseOpenSideBar = ({
 }) => {
   return (
     <Button
-      variant={"outline"}
-      className="block lg:hidden cursor-pointer"
+      className="block lg:hidden cursor-pointer mr-2 text-text scale-120"
       onClick={() => setOpen((prev) => !prev)}
     >
-      <CiBoxList />
+      <PiListLight />
     </Button>
   );
 };
