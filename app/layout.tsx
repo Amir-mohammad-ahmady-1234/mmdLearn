@@ -1,10 +1,10 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import MainHeader from "@/components/main-header/Hedaer";
+import MainHeader from "@/components/main-header/Header";
 
 export const metadata: Metadata = {
-  title: "DeepMinutes",
-  description: "control own time with this site.",
+  title: "mmdLearn",
+  description: "make your future, with learning in roocket!",
 };
 
 export default function RootLayout({

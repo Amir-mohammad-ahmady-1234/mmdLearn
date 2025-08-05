@@ -1,3 +1,9 @@
+import { Button } from "@/components/ui/button";
+
 export default function HomePage() {
-  return <h1>DeepMinutse</h1>;
+  return (
+    <main>
+      <Button>Get Started</Button>
+    </main>
+  );
 }
