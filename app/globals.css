@@ -62,8 +62,8 @@
   --color-surface: #2a5a8a;
   --color-text: #ffffff;
   --color-muted: #d1dae7;
-  --color-border: #d1cece;
-  --color-shadow: rgba(0, 0, 0, 0.2);
+  --color-border: #8f888869;
+  --color-shadow: rgba(97, 92, 92, 0.411);
 
   --color-primary: #0e2338;
   --color-on-primary: #1b3046;

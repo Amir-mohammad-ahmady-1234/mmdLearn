@@ -17,7 +17,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" dir="rtl">
-      <body>
+      <body className="bg-bg">
         <MainHeader />
         {children}
       </body>

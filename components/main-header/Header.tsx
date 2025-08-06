@@ -12,7 +12,7 @@ export default function MainHeader() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <header className="w-full bg-primary shadow-md fixed top-0 left-0 z-50">
+    <header className="w-full bg-primary shadow-md sticky top-0 left-0 z-50">
       <div className="max-w-7xl mx-auto flex items-center justify-between p-4">
         <CloseOpenSideBar setOpen={setIsOpen} />
 

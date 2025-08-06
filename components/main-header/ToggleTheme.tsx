@@ -16,7 +16,7 @@ export default function ToggleTheme() {
   }, []);
 
   useEffect(() => {
-    document.body.className = isDark;
+    document.body.classList.toggle("dark", isDark === "dark");
   }, [isDark]);
 
   function handleChangeTheme() {
@@ -25,8 +25,15 @@ export default function ToggleTheme() {
   }
 
   return (
-    <Button className="max-w-10 scale-[1.5] cursor-pointer" onClick={handleChangeTheme}>
-      {isDark === "dark" ? <MdDarkMode /> : <MdLightMode />}
+    <Button
+      className="max-w-10 scale-[1.5] cursor-pointer"
+      onClick={handleChangeTheme}
+    >
+      {isDark === "light" ? (
+        <MdDarkMode fill="black" />
+      ) : (
+        <MdLightMode fill="white" />
+      )}
     </Button>
   );
 }

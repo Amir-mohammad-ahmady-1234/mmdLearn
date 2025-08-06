@@ -8,13 +8,13 @@ import Link from "next/link";
 const InputAndButtons = () => {
   return (
     <div className="flex items-center space-x-8 mr-2">
-      <Input
+      <Input  
         type="search"
         placeholder="جستجو ..."
-        className="hidden md:block w-72 bg-surface text-text p-4 rounded-4xl border-none shadow-2xl focus:shadow-xl !outline-none !ring-0"
+        className="hidden md:block w-72 bg-surface text-text p-4 rounded-4xl border-border shadow-shadow focus:shadow-xl !outline-none !ring-0"
       />
 
-      <div className="hidden md:block ">
+      <div className="hidden md:block">
         <ToggleTheme />
       </div>
 

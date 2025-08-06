@@ -32,7 +32,7 @@ export default function MobileNav({
             <Input
               type="search"
               placeholder="دنبال چی میگردی ؟"
-              className="bg-surface text-text p5 mr-2 rounded-4xl border-none shadow-2xl focus:shadow-xl !outline-none !ring-0"
+              className="bg-surface text-text p-4 rounded-4xl border-border shadow-shadow shadow-xl focus:shadow-2xl !outline-none !ring-0"
             />
           </div>
 
