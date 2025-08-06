@@ -17,7 +17,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" dir="rtl">
-      <body className="bg-bg">
+      <body className="bg-bg max-w-screen-xl mx-auto px-4">
         <MainHeader />
         {children}
       </body>
