@@ -32,12 +32,12 @@ export default function MobileNav({
             <Input
               type="search"
               placeholder="دنبال چی میگردی ؟"
-              className="bg-surface text-text p-4 rounded-4xl border-border shadow-shadow shadow-xl focus:shadow-2xl !outline-none !ring-0"
+              className="bg-surface p-4 rounded-4xl border-border shadow-shadow shadow-xl focus:shadow-2xl !outline-none !ring-0"
             />
           </div>
 
           <div className="border border-border border-x-0 py-6 flex items-center justify-around">
-            <span className="text-text">تعویض تم سایت</span>
+            <span>تعویض تم سایت</span>
             <ToggleTheme />
           </div>
           <NavLinks />

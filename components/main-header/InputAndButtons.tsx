@@ -11,7 +11,7 @@ const InputAndButtons = () => {
       <Input  
         type="search"
         placeholder="جستجو ..."
-        className="hidden md:block w-72 bg-surface text-text p-4 rounded-4xl border-border shadow-shadow focus:shadow-xl !outline-none !ring-0"
+        className="hidden md:block w-72 bg-surface p-4 rounded-4xl border-border shadow-shadow focus:shadow-xl !outline-none !ring-0"
       />
 
       <div className="hidden md:block">

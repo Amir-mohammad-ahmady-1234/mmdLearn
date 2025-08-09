@@ -12,7 +12,7 @@ const CloseOpenSideBar = ({
 }) => {
   return (
     <Button
-      className="block lg:hidden cursor-pointer mr-2 text-text scale-120"
+      className="block lg:hidden cursor-pointer mr-2 scale-120"
       onClick={() => setOpen((prev) => !prev)}
     >
       <PiListLight />

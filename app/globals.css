@@ -55,6 +55,8 @@
   --color-error: #ef4444;
   --color-success: #22c55e;
   --color-warning: #facc15;
+
+  --color-text-gold: #e1aa36;
 }
 
 .dark {
@@ -71,6 +73,8 @@
   --color-error: #f87171;
   --color-success: #4ade80;
   --color-warning: #fde047;
+
+  --color-text-gold: #a1741f;
 }
 
 @font-face {

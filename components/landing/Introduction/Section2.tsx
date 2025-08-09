@@ -15,10 +15,8 @@ export default function SectionTow() {
 
       {/* Text */}
       <div className="w-full md:w-2/3 flex flex-col gap-8">
-        <h1 className="text-3xl sm:text-4xl font-bold leading-relaxed">
+        <h1 className="text-2xl sm:text-4xl font-bold leading-relaxed text-justify">
           با ممی‌لرن، برنامه‌نویسی رو از صفر تا سینیور مثل آب خوردن یاد بگیر!{" "}
-          <br />
-          تجربه کن، تمرین کن، و به سرعت حرفه‌ای شو.
         </h1>
         <p className="text-lg sm:text-xl leading-loose text-justify">
           برنامه‌نویسی قرار نیست سخت و خسته‌کننده باشه! با ممی‌لرن قدم‌به‌قدم
