@@ -4,7 +4,7 @@ export const courses: CoursesType[] = [
   {
     id: "gev2tre26",
     title: "آموزش جامع ReactJS",
-    src: "",
+    src: "https://sabzlearn.ir/wp-content/uploads/2025/07/58-1-768x432.webp",
     desc: "توی این دوره جامع تمام مباحث پایه‌ای مربوط به React گفته میشه و بعد ابزارها و لایبرری‌های حرفه‌ای این کتابخونه عظیم تدریس خواهد شد.",
     headLines: `
       فصل اول: چرا باید از ری‌اکت استفاده کنیم؟ دقیقا چه فرقی با JS داره؟
@@ -24,7 +24,7 @@ export const courses: CoursesType[] = [
   {
     id: "wef4gft89",
     title: "آموزش Next.js 15",
-    src: "",
+    src: "https://sabzlearn.ir/wp-content/uploads/2025/07/29-1-768x432.webp",
     desc: "توی این دوره از پایه تا پیشرفته‌ترین مفاهیم Next.js 15 رو یاد می‌گیریم، از ساختار فایل‌ها تا SSR، API Route و احراز هویت.",
     headLines: `
       فصل اول: ساختار و فلسفه Next.js
@@ -43,7 +43,7 @@ export const courses: CoursesType[] = [
   {
     id: "klz2rte52",
     title: "آموزش TypeScript برای دولوپرهای React",
-    src: "",
+    src: "https://sabzlearn.ir/wp-content/uploads/2023/12/ezgif.com-jpg-to-webp-converted-23-1-768x432.webp",
     desc: "تو این دوره یاد می‌گیری چطور با TypeScript کدت رو ایمن‌تر، سریع‌تر و بدون باگ بنویسی. مخصوص دولوپرهای فرانت‌اند.",
     headLines: `
       فصل اول: مقدمات TypeScript
@@ -57,12 +57,12 @@ export const courses: CoursesType[] = [
     students: 143,
     price: 1_200_000,
     time: 3,
-    category: ["front-end", "backend", "web-language"],
+    category: ["front-end", "backend", "language"],
   },
   {
     id: "lmx3vnb72",
     title: "دوره پروژه محور Tailwind CSS 4",
-    src: "",
+    src: "https://sabzlearn.ir/wp-content/uploads/2025/07/30-1-768x432.webp",
     desc: "توی این دوره با Tailwind CSS یه عالمه پروژه طراحی می‌کنیم و یاد می‌گیریم چطوری رابط‌های کاربری تمیز و رسپانسیو بسازیم.",
     headLines: `
       فصل اول: فلسفه Utility-first
@@ -82,7 +82,7 @@ export const courses: CoursesType[] = [
   {
     id: "vbn3asq09",
     title: "آموزش Git و GitHub از صفر تا Deployment",
-    src: "",
+    src: "https://sabzlearn.ir/wp-content/uploads/2023/12/ezgif.com-jpg-to-webp-converted-25-1-768x432.webp",
     desc: "اگر هنوز با Git درگیری، این دوره برات نجات‌دهنده‌ست. کامل‌ترین آموزش Git برای دولوپرها با کلی تمرین کاربردی.",
     headLines: `
       فصل اول: مقدمات Git و نصب ابزار
@@ -101,7 +101,7 @@ export const courses: CoursesType[] = [
   {
     id: "rtu2fty88",
     title: "آموزش Firebase و ساخت اپلیکیشن فول‌استک",
-    src: "",
+    src: "https://sabzlearn.ir/wp-content/uploads/2023/12/ezgif.com-jpg-to-webp-converted-24-1-768x432.webp",
     desc: "یاد می‌گیری چطوری با Firebase یه اپ واقعی بسازی، از دیتابیس Realtime تا احراز هویت و ذخیره‌سازی فایل.",
     headLines: `
       فصل اول: معرفی Firebase و نصب ابزارها  
@@ -120,7 +120,7 @@ export const courses: CoursesType[] = [
   {
     id: "plm4rte19",
     title: "آموزش کامل JavaScript مدرن",
-    src: "",
+    src: "https://sabzlearn.ir/wp-content/uploads/2024/11/js22-min-768x432.webp",
     desc: "قبل از هر فریم‌ورکی، باید JS رو بشناسی! این دوره صفر تا صد JavaScript رو به شیوه‌ای مدرن و پروژه‌محور یادت می‌ده.",
     headLines: `
       فصل اول: مفاهیم پایه مثل متغیر و شرط  
@@ -139,7 +139,7 @@ export const courses: CoursesType[] = [
   {
     id: "bnm6vds73",
     title: "آموزش Sass و سازماندهی استایل‌ها",
-    src: "",
+    src: "https://sabzlearn.ir/wp-content/uploads/2025/07/57-1-768x432.webp",
     desc: "Sass ابزار فوق‌العاده‌ایه برای مدیریت استایل‌های بزرگ. با این دوره از CSS خسته‌کننده نجات پیدا می‌کنی.",
     headLines: `
       فصل اول: نصب Sass و مفاهیم اولیه  
@@ -158,7 +158,7 @@ export const courses: CoursesType[] = [
   {
     id: "qwe9poi62",
     title: "آموزش طراحی ریسپانسیو با HTML و CSS",
-    src: "",
+    src: "https://sabzlearn.ir/wp-content/uploads/2025/07/51-1-768x432.webp",
     desc: "یاد می‌گیری چطور بدون فریم‌ورک، خودت ریسپانسیو‌ترین سایت‌ها رو با HTML و CSS بنویسی.",
     headLines: `
       فصل اول: اصول Flexbox و Grid  
@@ -178,7 +178,7 @@ export const courses: CoursesType[] = [
   {
     id: "xcz7lkj55",
     title: "مینی دوره کاربردی GitHub Actions",
-    src: "",
+    src: "https://sabzlearn.ir/wp-content/uploads/2025/07/2-768x432.webp",
     desc: "CI/CD رو تو پروژه‌هات با GitHub Actions پیاده کن. اتومات کن دیپلوی‌هات رو مثل حرفه‌ای‌ها!",
     headLines: `
       فصل اول: آشنایی با مفاهیم CI/CD  

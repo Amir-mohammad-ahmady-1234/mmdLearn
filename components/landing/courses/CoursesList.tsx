@@ -1,13 +1,16 @@
+import Image from "next/image";
+
+import { PiStudent } from "react-icons/pi";
+import { GiSandsOfTime } from "react-icons/gi";
+
 import { CoursesType } from "@/types/coursesType";
 import { convertNumberToPrice } from "@/utils/formatPrice";
-import { GiSandsOfTime } from "react-icons/gi";
-import { PiStudent } from "react-icons/pi";
 
 export default function CoursesList({ course }: { course: CoursesType }) {
   return (
     <div className="flex flex-col items-center justify-center border border-border rounded-2xl w-full max-w-[500px]">
-      <div className="w-[80%] h-full p-4 flex flex-col items-center justify-center">
-        <img className="w-full h-4/6" src={"/favicon.ico"} alt={course.title} />
+      <div className="flex flex-col items-center justify-center">
+        <Image className="rounded-2xl" src={course.src} alt={course.title} width={400} height={0} />
       </div>
 
       <div className="p-4 space-y-4">
